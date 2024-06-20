@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    height: 2000px;
+}
+
+.header {
+    border-bottom: 1px solid #f2f2f2;
+    padding: 0 24px ;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.header .header__city {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.header .header__city-name {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: green;
+    font-weight: 400;
+}
+.header .header__city-name:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.header .header__city-info_value {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.header .header__city-info_value:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.header .header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.header .header__container .header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.header .header__container .header__list {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex: 1;
+}
+
+.header .header__container .header__list-item {
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.header .header__container .business {
+    color: green;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.header .header__container .header__list-item:hover {
+    cursor: pointer;
+}
+.header .header__container .header__list-item:last-child {
+    margin-right: 0;
+}
+
+
+.header .header__container .header__component {
+    display: flex;
+    align-items: center;
+}
+
+.header .header__container .header__component-item {
+    margin-right: 2px;
+}
+.header .header__container .header__component-item:last-child {
+    margin-right: 0;
+}
+.header .header__container .header__component-item:hover {
+    cursor: pointer;
+}
+
+.fixed_btn {
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    bottom: 50px;
+    right: 50px;
+    border: 1px solid #f2f2f2;
+    color: rgb(84, 156, 240);
+    box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fixed_btn:hover {
+    cursor: pointer;
+}
